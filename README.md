@@ -3,7 +3,38 @@
 ## About the Data ##
 What are the things that a potential home buyer considers before purchasing a house? The location, the size of the property, vicinity to offices, schools, parks, restaurants, hospitals or the stereotypical white picket fence? What about the most important factor — the price?
 
-Now with the lingering impact of demonetization, the enforcement of the Real Estate (Regulation and Development) Act (RERA), and the lack of trust in property developers in the city, housing units sold across India in 2017 dropped by 7 percent. In fact, the property prices in Bengaluru fell by almost 5 percent in the second half of 2017, said a study published by property consultancy Knight Frank.
-For example, for a potential homeowner, over 9,000 apartment projects and flats for sale are available in the range of ₹42-52 lakh, followed by over 7,100 apartments that are in the ₹52-62 lakh budget segment, says a report by property website Makaan. According to the study, there are over 5,000 projects in the ₹15-25 lakh budget segment followed by those in the ₹34-43 lakh budget category.
+## Heroku Project Deployment link: ##
+https://housepricepredictionnew.herokuapp.com/
 
-Buying a home, especially in a city like Bengaluru, is a tricky choice. While the major factors are usually the same for all metros, there are others to be considered for the Silicon Valley of India. With its help millennial crowd, vibrant culture, great climate and a slew of job opportunities, it is difficult to ascertain the price of a house in Bengaluru.
+## Data: ##
+ - Data conations mostly Categorical Features and at initial state few features are available.
+ - Data has too much inconsistency, means data comes up with outliers.  
+ 
+ **Features:**
+ 1.  Bath – No. of bathrooms
+ 2.  Balcony – No. of the balcony 
+ 3.  Size – BHK or Bedroom (1-10) 
+ 4.  Area_type – describes the area
+ 5.  Society – Society Names
+ 6.  Total_sqft – size of the property in square feet
+ 7.  Location – Area  located in Bengaluru (eg. Super built-up  Area,etc.)
+ 8.  Availability – when it can be possessed or when it is ready(categorical,eg. Ready To Move,etc.)
+
+**Target variable:**
+ - Price – Value of the property in lakhs.
+ 
+ **Train and Test Data:**
+ - Train Data contains 189 features columns and  1 Target column.
+ - Train Data contain (5947, 189) rows and columns.
+ - Test Data contain(1487, 189) rows and columns. 
+
+**Problem statement:**
+
+With the given features(categorical and continuous) build a model to predict the price of houses in Bengaluru.
+  
+ 
+**Model Building:**
+
+Completed model building with LinearRegression Technique.
+
+**Thank you**
